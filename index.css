@@ -1,0 +1,124 @@
+.module-one{
+    background: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 80, 0.5)),to(rgba(0,0,80,0.5))),url(https://www.scfsecurities.com/wp-content/uploads/2013/08/businessman-1.jpg);
+    background: -o-linear-gradient(rgba(0, 0, 80, 0.5),rgba(0,0,80,0.5)),url(https://www.scfsecurities.com/wp-content/uploads/2013/08/businessman-1.jpg);
+    background: linear-gradient(rgba(0, 0, 80, 0),rgba(0,0,80,1)),url(https://www.scfsecurities.com/wp-content/uploads/2013/08/businessman-1.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .banner-contents{
+    padding-top: 197px;
+    padding-bottom:237px;
+    position: relative;
+ }
+ .banner-heading{
+     max-width: 680px;
+     width: 100%;
+     padding-bottom: 20px;
+ }
+ .banner-heading h2{
+     font-size: 60px;
+ line-height: 70.31px;
+ color: #FBFBFB;
+ font-family: 'Roboto';
+ }
+ 
+ .banner-description p{
+ 
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 32px;
+ text-align: left;
+ font-family:'Arimo' ;
+ color: #FBFBFB;
+ }
+ .banner-description{
+     max-width: 525px;
+     margin-bottom: 41px;
+     text-align: left;
+     padding: 6px 0px;
+     }
+ .same p{
+     font-size: 16px;
+ line-height: 24px;
+ color: #FBFBFB;
+ 
+ text-align: center;
+ 
+ }
+ .banner-link{
+    
+     display: inline-block;
+ }
+ .another-link{
+    display: inline-block;
+    
+    margin-left: 4.5%;
+ }
+ .another-link a{
+    display: inline-block;
+    color: #FBFBFB;
+    font-size: 16px;
+  display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 600;
+    padding: 3px 48px 9px 48px;
+    border-bottom: 2px solid white;
+
+ }
+.banner-contents{
+    max-width: 680px;
+}
+.buttons_group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+/* #######---->module-2 styling<------###### */
+.module-two{
+    background-color:#FBFBFB;
+}
+.module-two-heading{
+    padding: 122px 0px;
+    padding-bottom: 83px;
+}
+
+
+.module-two-heading .main-heading{
+    max-width: 918px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.module-two-description{
+    max-width: 832px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.module-two-flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+  
+
+}
+.flex-child-contents{
+    flex-basis: 31.33%;
+    text-align: center;
+    padding: 82.29px 20px 56px 19px;
+    
+    box-shadow: 13px 29px 43px -11px;
+    margin-right: 3%;
+    box-shadow: 0px 2px 40px rgba(76, 55, 132, 0.2);
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.flex-child-contents:nth-child(3n+3){
+    margin-right: 0%; 
+}
+
+
